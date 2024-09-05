@@ -14,3 +14,50 @@ The goal of this project was to forecast future gold prices using historical dat
 ## 📊 Dataset
 The dataset on Kaggle [here](https://www.kaggle.com/datasets/sahilmandavkar/gold-price-data/data).
 
+## 🛠️ Tools and Libraries Used
+1. Python
+2. Google Collaboratory
+3. Numpy
+4. Pandas
+5. Seaborn
+6. Matplotlib
+7. Scikit-learn
+8. XGBoost
+9. Warning
+10. ELI5
+11. Pickle
+
+## 📈 Results
+The results of the three models were compared based on their R-squared scores. The XGBoost model performed the best with an accuracy of 99,85% on the training data and 97,51% on the test data. 
+<table>
+  <thead>
+    <tr>
+      <th>Regression Model</th>
+      <th>Train Accuracy</th>
+      <th>Predict Accuracy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Lasso</td>
+      <td>86%</td>
+      <td>86,17%</td>
+     </tr>   
+    </tbody>
+   <tbody>
+    <tr>
+      <td>Random Forest</td>
+      <td>95,38%</td>
+      <td>95,68%</td>
+     </tr>   
+    </tbody>
+  <tbody>
+    <tr>
+      <td>XGBoost</td>
+      <td>99,85%</td>
+      <td>97,51%</td>
+     </tr>   
+    </tbody>
+</table> 
+
+
